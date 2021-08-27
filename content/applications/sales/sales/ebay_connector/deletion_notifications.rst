@@ -2,17 +2,12 @@
 eBay Marketplace account deletion notifications
 ===============================================
 
-Process overview
-================
-
 Since September 2021, **eBay requires supporting customer account deletion/closure notifications**.
 As such, when eBay receives an account request for deletion, all eBay partners must confirm the
 reception of the request and take further action.
 
 Odoo has a notification endpoint to receive those notifications and handle the first set of actions
 to anonymize the account details in Contact and remove the customer's access to the portal.
-
-**However** you need to tell eBay how to contact this endpoint, but don't worry, it's very easy !
 
 .. warning::
    Make sure to correctly set up your subscription to the **marketplace account deletion
@@ -45,6 +40,7 @@ Log in on the `developer portal of eBay <https://go.developer.ebay.com/>`_ and g
 
 .. image:: ./media/subscribe01.png
    :align: center
+   :alt: Overview of the Alerts & Notifications dashboard of eBay
 
 To subscribe to deletion/closure notifications, eBay needs a few details:
 
@@ -55,6 +51,7 @@ To subscribe to deletion/closure notifications, eBay needs a few details:
 
 .. image:: ./media/subscribe02.png
    :align: center
+   :alt: Dedicated fields to enter the endpoint details
 
 .. note::
    You can edit the last two fields once the email address field is filled out.
@@ -69,4 +66,4 @@ You should get the following confirmation message: "A test notification was sent
 
 .. image:: ./media/subscribe04.png
    :align: center
-
+   :alt: Button to send test notification

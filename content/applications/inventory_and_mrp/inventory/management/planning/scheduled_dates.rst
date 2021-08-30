@@ -250,7 +250,7 @@ delivery date is planned to be within 20 days (September 20th). In such
 a scenario, here is when all the various steps are triggered.
 
 -  **September 1st**: the sales order is created
--  **September 10th**: the deadline to order components from the supplier
+-  **September 9th**: the deadline to order components from the supplier
    because of the manufacturing process (4 days of supplier lead
    time)
 -  **September 13th**: the reception of the product from the supplier (1 day
